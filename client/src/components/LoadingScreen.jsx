@@ -7,7 +7,7 @@ const LoadingScreen = () => {
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        style={{ textAlign: 'center' }}>
+        style={{ textAlign: 'center', display:'flex', flexDirection:'column', alignItems:'center' }}>
         <img
           src='/logo.png'
           style={{ width: '80px', height: '80px', marginBottom: '1.5rem' }}
